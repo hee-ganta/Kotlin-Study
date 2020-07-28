@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AsyncActivity">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Async 연습 창입니다."
+        android:layout_marginTop="200dp"
+        android:textSize="26dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/async_start"
+            android:layout_gravity="center_horizontal"
+            android:text="Async 수행"
+            android:textSize="10dp"
+            android:layout_height="60dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="90dp"/>
+
+        <Button
+            android:id="@+id/async_stop"
+            android:layout_gravity="center_horizontal"
+            android:text="Async 취소"
+            android:textSize="10dp"
+            android:layout_height="60dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/async_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"/>
+
+    <TextView
+        android:id="@+id/ment"
+        android:text="AsyncTask"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/next_network"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="50dp"
+        android:text="이동" />
+
+
+</LinearLayout>

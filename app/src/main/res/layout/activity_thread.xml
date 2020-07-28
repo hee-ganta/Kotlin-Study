@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThreadActivity">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thread 연습 창입니다."
+        android:layout_marginTop="150dp"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/thread1_btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Thread1 수행"
+        android:textSize="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+
+    <ProgressBar
+        android:id="@+id/progressbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"/>
+
+    <Button
+        android:id="@+id/thread2_btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Thread2 수행"
+        android:textSize="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"/>
+
+    <Button
+        android:id="@+id/thread3_btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Thread3 수행"
+        android:textSize="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"/>
+
+    <Button
+        android:id="@+id/next_btn4"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:text="이동" />
+
+
+</LinearLayout>
